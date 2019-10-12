@@ -1,3 +1,5 @@
+#include <SerialESP8266wifi.h>
+#include <Adafruit_ESP8266.h>
 #include <max6675.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>

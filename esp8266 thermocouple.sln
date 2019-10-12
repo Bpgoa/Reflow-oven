@@ -5,7 +5,21 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "esp8266 thermocouple", "esp8266 thermocouple.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adafruit_ESP8266-1.0.0", "Libraries\Adafruit_ESP8266\1.0.0\Adafruit_ESP8266\Adafruit_ESP8266-1.0.0.vcxitems", "{284D0AE3-6BFE-4686-A1D9-DA1AB2662EA0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MAX6675_library-1.0.0", "Libraries\MAX6675_library\1.0.0\MAX6675_library\MAX6675_library-1.0.0.vcxitems", "{22F29E33-D493-4A1E-B7D4-3EA0FE1A7005}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESP8266wifi-master-0.0.0", "Libraries\ESP8266wifi-master\0.0.0\ESP8266wifi-master\ESP8266wifi-master-0.0.0.vcxitems", "{A7E44093-9D8B-4F7D-995F-51E33A7144DE}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Libraries\MAX6675_library\1.0.0\MAX6675_library\MAX6675_library-1.0.0.vcxitems*{22f29e33-d493-4a1e-b7d4-3ea0fe1a7005}*SharedItemsImports = 9
+		Libraries\Adafruit_ESP8266\1.0.0\Adafruit_ESP8266\Adafruit_ESP8266-1.0.0.vcxitems*{284d0ae3-6bfe-4686-a1d9-da1ab2662ea0}*SharedItemsImports = 9
+		Libraries\ESP8266wifi-master\0.0.0\ESP8266wifi-master\ESP8266wifi-master-0.0.0.vcxitems*{a7e44093-9d8b-4f7d-995f-51e33a7144de}*SharedItemsImports = 9
+		Libraries\Adafruit_ESP8266\1.0.0\Adafruit_ESP8266\Adafruit_ESP8266-1.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\ESP8266wifi-master\0.0.0\ESP8266wifi-master\ESP8266wifi-master-0.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\MAX6675_library\1.0.0\MAX6675_library\MAX6675_library-1.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86
