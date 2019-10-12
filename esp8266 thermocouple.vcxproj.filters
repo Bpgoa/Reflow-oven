@@ -16,10 +16,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="esp8266 thermocouple.ino" />
-    <None Include="..\..\..\source\repos\HTMLPageIndex.html">
+    <None Include="HTMLPage2.html">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="..\..\..\source\repos\HTMLPage2.html">
+    <None Include="HTMLPageIndex.html">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>
@@ -27,16 +27,13 @@
     <ClInclude Include="__vm\.esp8266 thermocouple.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\source\repos\index.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\libraries\MAX6675_library\max6675.h">
+    <ClInclude Include="__vm\.Reflow-oven.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="__vm\.Reflow-oven.vsarduino.h">
+    <ClInclude Include="index.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Reflow Oven</title>
+    <style type="text/css">
+        canvas{
+            border:5px solid grey;
+            padding:0px;
+            background:grey;
+            margin:0px;
+            float:left;
+        }
+        div {
+            width: 640px;
+            margin-left: auto;
+            margin-right: auto;
+            background: grey;
+        }
+        div#above {
+            height: 5px;
+        }
+        body{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="wrapper">
+        <div id="above"></div>
+        <canvas id="topLeft"></canvas>
+        <canvas width=120 height=80 id="gauge"></canvas>
+    </div>
+
+    <script src="http://bernii.github.io/gauge.js/dist/gauge.min.js"></script>
+    <script>
+        var canvas = document.getElementById("topLeft");
+        canvas.width = 500;
+        canvas.height = 80;
+        var c = canvas.getContext('2d');
+        c.fillRect(5, 5, 100, 70);
+
+        console.log(canvas);
+    </script>
+    <script>
+
+        selectGauge = new Gauge(document.getElementById("gauge"));
+        selectGauge.maxValue = 3000;
+        selectGauge.set(2500);
+
+    </script>
+</body>
+</html>
